@@ -74,31 +74,29 @@ p {
 .top-header {
     display: flex;
     align-items: baseline;
-    border: 2px solid dodgerblue; /* PLACEHOLDER CONTENT */
+    margin: 2% auto;
 }
 
 .top-header nav {
-    display: block;
+    display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    border: 2px solid black; /* PLACEHOLDER CONTENT */
+    justify-content: space-around;
 }
 
 .top-header a {
     text-decoration: none;
     color: black;
-    border: 1px solid gray;  /* PLACEHOLDER CONTENT */
 }
 
 .top-header img {
-    margin: 0; /* PLACEHOLDER; CONTINUE THIS MARGIN SETTING LATER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    margin: 2% auto;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px auto; /* patch spacing to make it ideal on top too, instead of just bottom */
     border-bottom: 1px dashed black;
 }
 
@@ -196,4 +194,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+    CUSTOM CODE BELOW
+    The code that I wasn't able to quickly insert into the site without doing more harm than good.
+    Time-willing, I might have been able to move some things around so the below lines are unecessary.
+*/
+.about-page .top-content .text-container {
+    width: 97%; /* exact measurement to look like design image */
+}
+
+.about-page .middle-content {
+    display: flex;
+    padding-bottom: 20px;
 }
