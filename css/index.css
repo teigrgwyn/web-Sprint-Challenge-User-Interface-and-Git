@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.top-header {
+    display: flex;
+    align-items: baseline;
+    border: 2px solid dodgerblue; /* PLACEHOLDER CONTENT */
+}
+
+.top-header nav {
+    display: block;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 2px solid black; /* PLACEHOLDER CONTENT */
+}
+
+.top-header a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;  /* PLACEHOLDER CONTENT */
+}
+
+.top-header img {
+    margin: 0; /* PLACEHOLDER; CONTINUE THIS MARGIN SETTING LATER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +124,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +133,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
