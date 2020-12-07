@@ -42,6 +42,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
+==============================
+==============================
+ANSWERS:
+1. It's a purely structurized and static way of creating a webpage; it has no design and very little formatting applied to it, but can be laid out in a way that makes the site design much smoother to implement.
+2. Blocks display on dedicated lines; inlines display all on one line.
+3. Center, Padding, Border, Margin
+4. Assuming flex-direction is row, it's vertical (it will move items to the right to the middle of the screen).
+5. Multiple people can edit multiple parts of a project/codebase at the same time (even the same file).
+==============================
+==============================
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

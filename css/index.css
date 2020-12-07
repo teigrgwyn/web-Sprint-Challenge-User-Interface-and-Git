@@ -71,11 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.top-header {
+    display: flex;
+    align-items: baseline;
+    margin: 2% auto;
+}
+
+.top-header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-header img {
+    margin: 2% auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px auto; /* patch spacing to make it ideal on top too, instead of just bottom */
     border-bottom: 1px dashed black;
 }
 
@@ -101,7 +122,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +131,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +194,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+    CUSTOM CODE BELOW
+    The code that I wasn't able to quickly insert into the site without doing more harm than good.
+    Time-willing, I might have been able to move some things around so the below lines are unecessary.
+*/
+.about-page .top-content .text-container {
+    width: 97%; /* exact measurement to look like design image */
+}
+
+.about-page .middle-content {
+    display: flex;
+    padding-bottom: 20px;
 }
